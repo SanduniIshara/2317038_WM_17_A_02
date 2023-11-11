@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rolling Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="image/D3.jpg" alt="Dice Image" style="width: 200px; height: 150px;">
+
+    <h1>Dice Rolling Game</h1>
+
+    <div id="players">
+        <div class="player">
+            <img src="image/C1.webp" alt="Player 1">
+            <p>Player 1</p>
+        </div>
+        <div class="player">
+            <img src="image/c2.webp" alt="Player 2">
+            <p>Player 2</p>
+        </div>
+    </div>
+
+    <div id="dice-container">
+        <div id="dice1" class="dice"></div>
+        <div id="dice2" class="dice"></div>
+    </div>
+
+    <button onclick="rollDice()">Roll Dice</button>
+
+    <div id="score">
+        <p>Player 1 Score: <span id="player1-score">0</span></p>
+        <p>Player 2 Score: <span id="player2-score">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </div>  
+</body>
+</html>
